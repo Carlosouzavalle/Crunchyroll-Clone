@@ -1,0 +1,136 @@
+#bannerContainer {
+    width: 100%;
+    min-height: 90vh; 
+    background: url() center / cover no-repeat;
+}
+
+/* .carousel {
+    position: relative;
+} */
+
+.carousel img {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel_section .animeInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid black; 
+    color: black;
+    width: auto;
+    height: 800px;
+    
+} 
+
+.textFrieren {
+    font-size: 20px;
+    width: 450px;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+.imgFrieren {
+    margin-top: 30px;
+}
+
+
+
+/* Diferentes tamanhos de tela no pc */
+@media screen and (max-width: 1462px) {
+	.carousel_section .animeInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border: 1px solid black; 
+        color: black;
+        width: auto;
+        height: 600px;
+        
+    } 
+    
+    .textFrieren {
+        font-size: 20px;
+        width: 400px;
+        border: 1px solid black;
+        margin-top: 15px;
+    }
+    
+    .imgFrieren {
+        margin-top: 20px;
+    }
+
+
+    @media screen and (max-width: 1300px) {
+        .textFrieren {
+            font-size: 19px;
+            width: 350px;
+            border: 1px solid black;
+            margin-top: 20px;
+            
+        }
+        
+        .imgFrieren {
+            margin-top: 45px;
+        }
+    }
+
+    @media screen and (max-width: 1090px) {
+        .textFrieren {
+            font-size: 19px;
+            width: 350px;
+            border: 1px solid black;
+            margin-top: 20px;
+            
+        }
+        
+        .imgFrieren {
+            margin-top: 100px;
+        }
+    }
+
+    @media screen and (max-width: 970px) {
+        .textFrieren {
+            font-size: 19px;
+            width: 350px;
+            border: 1px solid black;
+            margin-top: 20px;
+            
+        }
+        
+        .imgFrieren {
+            margin-top: 150px;
+        }
+    }
+
+    @media screen and (max-width: 890px) {
+        .textFrieren {
+            font-size: 19px;
+            width: 350px;
+            border: 1px solid black;
+            margin-top: 20px;
+            
+        }
+        
+        .imgFrieren {
+            margin-top: 180px;
+        }
+    }
+
+    @media screen and (max-width: 830px) {
+        .textFrieren {
+            font-size: 19px;
+            width: 350px;
+            border: 1px solid black;
+            margin-top: 20px;
+            
+        }
+        
+        .imgFrieren {
+            margin-top: 220px;
+        }
+    }
+}
