@@ -1,0 +1,21 @@
+.card {
+    width: 350px; /* Largura desejada para os cartões */
+    height: 500px; /* Altura desejada para os cartões */
+    background-color: #f0f0f0; /* Cor de fundo opcional */
+    border: 1px solid #ccc; /* Borda opcional */
+    border-radius: 5px; /* Borda arredondada opcional  */
+}
+
+.Cardcontainer {
+    padding: 50px;
+    position: relative;
+    bottom: 220px;
+}
+
+.Cardcontainer h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}

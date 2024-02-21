@@ -1,46 +1,11 @@
 #bannerContainer {
     width: 100%;
     min-height: 90vh; 
-    background: url() center / cover no-repeat;
 }
-
-/* .carousel {
-    position: relative;
-} */
-
-.carousel img {
-    position: absolute;
-    left: 5%;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.carousel_section .animeInfo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border: 1px solid black; 
-    color: black;
-    width: auto;
-    height: 800px;
-    
-} 
-
-.textFrieren {
-    font-size: 20px;
-    width: 450px;
-    border: 1px solid black;
-    margin-top: 15px;
-}
-
-.imgFrieren {
-    margin-top: 30px;
-}
-
 
 
 /* Diferentes tamanhos de tela no pc */
-@media screen and (max-width: 1462px) {
+ @media screen and (max-width: 1462px) {
 	.carousel_section .animeInfo {
         display: flex;
         flex-direction: column;
@@ -64,7 +29,7 @@
     }
 
 
-    @media screen and (max-width: 1300px) {
+ @media screen and (max-width: 1300px) {
         .textFrieren {
             font-size: 19px;
             width: 350px;
@@ -133,4 +98,83 @@
             margin-top: 220px;
         }
     }
+} 
+
+
+.carousel {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(black, transparent);
+}
+
+.carousel_section .animeInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content:  flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    color: black;
+    height: 80vh;   
+    
+}
+
+.animeInfo p {
+    width: 600px;
+    color: white;
+    text-align: left;
+}
+
+#backgroundCarrosel {
+    background-image: linear-gradient(to right, black, transparent), url(../assets//img//frierin.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh
+}
+
+#backgroundCarrosel2 {
+    background: linear-gradient(to right, black, transparent), url(../assets//img/classRoom.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh
+}
+
+#backgroundCarrosel3 {
+    background-image: linear-gradient(to right, black, transparent), url(../assets//img/banishedHero.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh
+}
+
+#backgroundCarrosel4 {
+    background-image: linear-gradient(to right, black, transparent), url(../assets//img/saitama.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh
+}
+
+.botaoAssistir {
+    padding: 10px 50px;
+    background: #f47521;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.bookmark {
+    padding: 0 13px;
+    background: #f47521;
+    border: none;
+}
+
+.botaoDiv {
+    display: flex;
+    gap: 10px;
+}
+
+.divA14 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 3px;
 }
